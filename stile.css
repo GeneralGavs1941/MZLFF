@@ -1,0 +1,401 @@
+/*базовые настройки*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    /* можно поставить если нравится*/
+    color: black;
+    font-size: 20px;
+}
+
+/* всё настройка закончилась */
+
+
+/* настройка контейнера*/
+.container {
+    max-width: 854px;
+    margin: 0 auto;
+}
+
+/* настройка контейнера*/
+
+
+
+/* настройка хидэра сайта */
+.header-list {
+    /* выравнивание по стрке*/
+    display: flex;
+    justify-content: flex-end;
+    /* выравнивание по стрке*/
+}
+
+.header-list-item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.header-list-item-link {
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.header-list-item-link:hover {
+    color: orangered
+}
+
+header {
+    margin-top: 27px;
+}
+
+.about_me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 175px;
+}
+
+.about_me_header {
+    font-weight: 700;
+    font-size: 44px;
+    max-width: 470px;
+}
+
+.about_me_descp {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 24px;
+    max-width: 467px;
+    margin-bottom: 38px;
+}
+
+.about_mebtn {
+    padding: 17px 20px;
+    font-weight: 500;
+    background: #FF6464;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: none;
+    transition: all 0.3s;
+    border: 1px solid #ff6464;
+}
+
+.about_mebtn:hover {
+    color: #FF6464;
+    background: white;
+    border: 2px;
+    border: 1px solid #ff6464;
+}
+
+.new_posts_left {
+    width: 418px;
+    max-width: 418px;
+    border: 2px
+}
+
+.new_posts_top {
+    margin-top: 66px;
+    margin-bottom: 63px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+A {
+    text-decoration: none;
+}
+
+/*базовые настройки*/
+
+
+.container {
+    max-width: 854px;
+    margin: 0 auto;
+}
+
+.header-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-list-item:not(:last-child) {
+    margin-right: 33px;
+}
+
+.header-list-item-link {
+    font-size: 30px;
+    color: black;
+}
+
+.qwe {
+    max-width: 415px;
+    padding: 15px;
+}
+
+.asd {
+    max-width: 415px;
+    padding: 15px;
+}
+
+.Design {
+    display: flex;
+    justify-content: space-between;
+}
+
+.zxc {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.rty {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.fgh {
+    font-size: 28px;
+}
+
+.vbn {
+    font-size: 28px;
+}
+
+.uio {
+    font-size: 20px;
+}
+
+.jkl {
+    font-size: 20px;
+}
+
+.tramp {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.putin {
+    margin-left: 20px;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.lopo {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.lepo {
+    margin-left: 20px;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.giga {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.goga {
+    margin-left: 20px;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.qwert {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 30px;
+}
+
+.qwaszx {
+    margin-bottom: 35px;
+
+}
+
+.oreo {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.obeme {
+    display: flex;
+    justify-content: center;
+
+}
+
+.AboutMe:hover {
+    transform: rotate(180deg);
+}
+
+.AboutMe {
+    transition: all 0.2s ease-in-out;
+}
+
+.Footer_img {
+    width: 40px;
+    margin-top: 70px;
+}
+
+.header_link:not(:last-child) {
+    margin-right: 20px;
+}
+
+@media (max-width: 375px) {
+    .about_me {
+        flex-direction: column-reverse;
+        padding: 0 20px;
+    }
+
+    .about_me_left {
+        text-align: center;
+    }
+
+    .Design {
+        flex-direction: column;
+    }
+
+    .oreo {
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+
+    .qwert {
+        text-align: center;
+    }
+
+    .qwaszx {
+        padding: 0 20px;
+    }
+
+    .tramp {
+        flex-direction: column;
+    }
+
+    .lopo {
+        flex-direction: column;
+    }
+
+    .giga {
+        flex-direction: column;
+    }
+
+    .Design {
+        background: #EDF7FA;
+    }
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.6s;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+@media (max-width: 375px) {
+    .burger {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 10px;
+    }
+
+    .header-list {
+        transform: translate(-150%);
+        transition: all 0.5s
+    }
+
+    .active {
+        transform: none;
+    }
+
+    .header-list-item-link {
+        font-size: 30px;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+}
+
+.map {
+    display: flex;
+    justify-content: center
+}
+
+.AboutMe {
+    max-width: 500px;
+}

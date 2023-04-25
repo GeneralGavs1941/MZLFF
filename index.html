@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stile.css">
+    <title>MZLFF</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <ul class="header-list">
+                <li class="header-list-item">
+                    <a href="" class="header-list-item-link">Works</a>
+                </li>
+                <li class="header-list-item">
+                    <a href="" class="header-list-item-link">Blog</a>
+                </li>
+                <li class="header-list-item">
+                    <a href="" class="header-list-item-link">Contact</a>
+                </li>
+            </ul>
+            <div class="burger">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </header>
+
+        <section class="about_me">
+            <div class="about_me_left">
+                <h1 class="about_me_header">Hi, I am  MZLFF или MAZELLOVVV</h1>
+                <p class="about_me_descp"> 
+                    Птички летят бомбить поросят
+                    Они взрывают им домики
+                    Птички летят бомбить поросят
+                    Они взрывают им домики
+                    <button class="about_mebtn">Download МЕМЕ</button>
+            </div>
+            <img src="mzl.jpg" alt="" class="AboutMe">
+        </section>
+        <section class="troll">
+            <h1 class="oreo">
+                мазик
+            </h1>
+            <img src="maz.png" alt="">
+            <div class="Design">
+                <div class="qwe">
+                    <h3 class="fgh">
+                        кто я?
+                    </h3>
+
+                    <p class="zxc">
+
+                    </p>
+                    <p class="jkl">
+                        MAZELLOVVV – молодой, но перспективный стример. Он начал вести трансляции с 2020 года. Публике
+                        быстро полюбился образ простого лампового парня. Число подписчиков постоянно растет, а Мазелов
+                        продолжает радовать новым контентом.
+                    </p>
+                </div>
+                <div class="asd">
+                    <h3 class="vbn">
+                        Чем занимаюсь
+                    </h3>
+                    <p class="rty">
+
+                    </p>
+                    <p class="uio">
+                        не только занимается стримингом, но и создаёт различные видео на своём YouTube канале, а также
+                        ведёт свой блог в Instagram. Он также активен в социальных сетях, таких как Telegram, VK и
+                        Discord. </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="qwaszx">
+
+            <h3 class="qwert">
+               мое товрение
+            </h3>
+            <div class="tramp">
+                <img src="cyb.png" alt="картинка">
+                <div class="putin">
+
+                    
+
+                    <p>
+
+
+                        Я захожу на Twitch и пишу кому-то в чат "поплачь, блевота" Чтобы не плакала девочка надо
+                        написать пару афигенных паст. Мне пофиг на это, я очень классный пац ...
+                    </p>
+                </div>
+            </div>
+
+            <div class="lopo">
+                <img src="tractor.png" alt="человек">
+                <div class="lepo">
+                    
+                    
+                    <p>
+                        Песня трактор 
+                    </p>
+                </div>
+            </div>
+
+            </div>
+        </section>
+        <footer class="obeme">
+            <a href="https://www.twitch.tv/search?term=mzlff" class="header_link">
+                <img class="Footer_img" src="free-icon-twitch-3938147.png">
+            </a>
+            <a href="https://music.yandex.ru/artist/12210008" class="header_link">
+                <img class="Footer_img" src="free-png.ru-60.png">
+            </a>
+            <a href="https://vk.com/wall265934795" class="header_link">
+                <img class="Footer_img" src="free-icon-vkontakte-4494517.png">
+            </a>
+          
+
+        </footer>
+        <div class="map">
+            <div id="map" style="width: 600px; height: 400px"></div>
+        </div>
+
+    </div>
+
+    <script src="/script.js"></script>
+
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+    </script>
+
+
+
+    <script type="text/javascript">
+        // Функция ymaps.ready() будет вызвана, когда
+        // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+        ymaps.ready(init);
+        function init() {
+            // Создание карты.
+            var myMap = new ymaps.Map("map", {
+                // Координаты центра карты.
+                // Порядок по умолчанию: «широта, долгота».
+                // Чтобы не определять координаты центра карты вручную,
+                // воспользуйтесь инструментом Определение координат.
+                center: [55.75, 37.6167],
+                // Уровень масштабирования. Допустимые значения:
+                // от 0 (весь мир) до 19.
+                zoom: 12
+            });
+
+            var myPlacemark = new ymaps.Placemark([55.75, 37.6167], {}, {
+                iconLayout: 'default#image',
+                iconImageHref: '/Icon.png',
+                iconImageSize: [30, 42],
+                iconImageOffset: [-3, -42]
+            });
+            myMap.geoObjects.add(myPlacemark);
+        }
+
+        // Размещение геообъекта на карте.
+
+    </script>
+</body>
+
+</html>
